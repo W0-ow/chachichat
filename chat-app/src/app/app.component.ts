@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -28,13 +28,6 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class AppComponent implements OnInit {
-  ngOnInit(): void {
-    const kk = 22;
-    console.log(kk);
-    if (kk == 22) {
-      console.log(kk);
-    }
-  }
+export class AppComponent{
   title = 'chachichat';
 }

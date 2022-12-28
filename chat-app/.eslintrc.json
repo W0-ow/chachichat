@@ -37,7 +37,8 @@
         "comma-spacing": "error",
         "no-console": "warn",
         "no-multi-spaces": "error",
-        "space-infix-ops": "error"
+        "space-infix-ops": "error",
+        "no-void": "warn"
       }
     },
     {
