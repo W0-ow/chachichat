@@ -2,3 +2,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  .btn-disabled {
+    @apply py-2 px-4 bg-blue-300 text-white font-semibold rounded-lg shadow-md focus:outline-none focus:ring-0 transition duration-150 pointer-events-none opacity-60;
+  }
+
+  .form-control-input {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
+  }
+  .bg-primary {
+    @apply bg-slate-900
+  }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
